@@ -1,0 +1,11 @@
+server:
+  addr: "0.0.0.0:8080"
+sqlite:
+  dsn: "./data/interview.db"
+ollama:
+  addr: "http://127.0.0.1:11434"
+  model: "qwen:7b"
+funasr:
+  ws_addr: "ws://127.0.0.1:10095"
+cosyvoice:
+  ws_addr: "ws://127.0.0.1:10096"

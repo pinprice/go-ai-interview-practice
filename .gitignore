@@ -32,3 +32,14 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+
+# custom
+config.yaml
+data/
+*.db
+*.db-journal
+.DS_Store
+web/node_modules
+web/.env.local
+web/dist
